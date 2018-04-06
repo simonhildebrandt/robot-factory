@@ -1,0 +1,29 @@
+{
+  "name": "robot-factory",
+  "version": "1.0.0",
+  "description": "Robot Factory Code Test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Simon Hildebrandt",
+  "license": "ISC",
+  "dependencies": {
+    "typescript": "^2.8.1"
+  },
+  "devDependencies": {
+    "axios": "^0.18.0",
+    "babel-jest": "^22.4.3",
+    "babel-preset-env": "^1.6.1",
+    "babel-preset-react": "^6.24.1",
+    "browserify": "^16.1.1",
+    "http-server": "^0.11.1",
+    "jest": "^22.4.3",
+    "react": "^16.3.1",
+    "react-dom": "^16.3.1",
+    "react-test-renderer": "^16.3.1",
+    "redux": "^3.7.2",
+    "tsify": "^3.0.4",
+    "watchify": "^3.11.0"
+  }
+}

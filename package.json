@@ -4,6 +4,7 @@
   "description": "Robot Factory Code Test",
   "main": "index.js",
   "scripts": {
+    "watch": "watchify client/index.tsx -p [ tsify ] -o public/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Simon Hildebrandt",

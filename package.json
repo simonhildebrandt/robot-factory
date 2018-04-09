@@ -4,28 +4,38 @@
   "description": "Robot Factory Code Test",
   "main": "index.js",
   "scripts": {
-    "watch": "watchify client/index.tsx -p [ tsify ] -o public/index.js",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "serve": "http-server"
+    "watch": "watchify build/* -o public/index.js --standalone RF",
+    "build": "browserify build/* -o public/index.js --standalone RF",
+    "babel": "babel --watch --extensions '.tsx' client -d build",
+    "test": "jest --no-cache",
+    "serve": "live-server ./public --entry-file=index.html"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.(js|ts)x?$": "<rootDir>/node_modules/babel-jest"
+    }
   },
   "author": "Simon Hildebrandt",
   "license": "ISC",
-  "dependencies": {
-    "typescript": "^2.8.1"
-  },
   "devDependencies": {
+    "@babel/cli": "^7.0.0-beta.44",
+    "@babel/core": "^7.0.0-beta.44",
+    "@babel/preset-env": "^7.0.0-beta.44",
+    "@babel/preset-react": "^7.0.0-beta.44",
+    "@babel/preset-typescript": "^7.0.0-beta.44",
     "axios": "^0.18.0",
+    "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^22.4.3",
-    "babel-preset-env": "^1.6.1",
-    "babel-preset-react": "^6.24.1",
     "browserify": "^16.1.1",
     "http-server": "^0.11.1",
     "jest": "^22.4.3",
+    "live-server": "^1.2.0",
+    "npx": "^10.0.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
     "react-test-renderer": "^16.3.1",
     "redux": "^3.7.2",
-    "tsify": "^3.0.4",
+    "typescript": "^2.8.1",
     "watchify": "^3.11.0"
   }
 }

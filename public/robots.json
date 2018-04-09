@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "name": "robot 1",
+    "configuration": {
+      "hasSentience": true,
+      "hasWheels": true,
+      "hasTracks": true,
+      "numberOfRotors": 1,
+      "Colour": "red"
+    },
+    "statuses": ["on fire", "rusty", "loose screws", "paint scratched"]
+  },
+  {
+    "id": 2,
+    "name": "robot 2",
+    "configuration": {
+      "hasSentience": true,
+      "hasWheels": true,
+      "hasTracks": true,
+      "numberOfRotors": 2,
+      "Colour": "green"
+    },
+    "statuses": ["on fire", "rusty", "loose screws", "paint scratched"]
+  },
+  {
+    "id": 3,
+    "name": "robot 3",
+    "configuration": {
+      "hasSentience": true,
+      "hasWheels": true,
+      "hasTracks": true,
+      "numberOfRotors": 3,
+      "Colour": "blue"
+    },
+    "statuses": ["on fire", "rusty", "loose screws", "paint scratched"]
+  }
+]

@@ -1,17 +1,18 @@
 import * as React from 'react'
 import ReactDOM from 'react-dom'
 
-function amanda(lastname: string) {
-  return lastname
+
+class App extends React.Component {
+
+  render() {
+    return <div>XXX</div>
+  }
 }
 
-function Thing({x}) {
-  return <div>Simon {x+1}</div>
-}
 
 function install() {
   const el = document.getElementById('main')
-  ReactDOM.render(<Thing x={5}/>, el)
+  ReactDOM.render(<App/>, el)
 }
 
-export {amanda, Thing, install}
+export {App, install}

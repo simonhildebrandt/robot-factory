@@ -2,6 +2,11 @@
 
 exports[`App render 1`] = `
 <div>
-  XXX
+  <h1>
+    Robot Factory
+  </h1>
+  <em>
+    loading robots...
+  </em>
 </div>
 `;

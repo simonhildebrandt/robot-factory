@@ -4,13 +4,14 @@
   "description": "Robot Factory Code Test",
   "main": "index.js",
   "scripts": {
-    "watch": "watchify build/* -o public/index.js --standalone RF",
-    "build": "browserify build/* -o public/index.js --standalone RF",
-    "babel": "babel --watch --extensions '.tsx' client -d build",
+    "watch": "watchify build/index.js -o public/index.js --standalone RF",
+    "build": "browserify build/index.js -o public/index.js --standalone RF",
+    "babel": "babel --watch --extensions '.tsx','.ts' client -d build",
     "test": "jest --no-cache",
     "serve": "live-server ./public --entry-file=index.html"
   },
   "jest": {
+    "moduleFileExtensions": ["js", "jsx", "json", "ts", "tsx"],
     "transform": {
       "^.+\\.(js|ts)x?$": "<rootDir>/node_modules/babel-jest"
     }
@@ -20,6 +21,7 @@
   "devDependencies": {
     "@babel/cli": "^7.0.0-beta.44",
     "@babel/core": "^7.0.0-beta.44",
+    "@babel/plugin-proposal-object-rest-spread": "^7.0.0-beta.44",
     "@babel/preset-env": "^7.0.0-beta.44",
     "@babel/preset-react": "^7.0.0-beta.44",
     "@babel/preset-typescript": "^7.0.0-beta.44",

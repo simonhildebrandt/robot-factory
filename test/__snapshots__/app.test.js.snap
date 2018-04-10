@@ -1,12 +1,1003 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`App render 1`] = `
-<div>
-  <h1>
-    Robot Factory
-  </h1>
-  <em>
-    loading robots...
-  </em>
-</div>
+exports[`App render loaded state 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Robot Factory
+        </h1>,
+        false,
+        <table>
+          <thead>
+            <tr>
+              <th>
+                Name
+              </th>
+              <th>
+                Sentient?
+              </th>
+              <th>
+                Wheels?
+              </th>
+              <th>
+                Tracks?
+              </th>
+              <th>
+                Rotors
+              </th>
+              <th>
+                Colour
+              </th>
+              <th>
+                Statuses
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>
+                robot 1
+              </td>
+              <td>
+                true
+              </td>
+              <td>
+                true
+              </td>
+              <td>
+                true
+              </td>
+              <td>
+                true
+              </td>
+              <td>
+                red
+              </td>
+              <td>
+                on fire, rusty, loose screws, paint scratched
+              </td>
+            </tr>
+          </tbody>
+        </table>,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Robot Factory",
+        },
+        "ref": null,
+        "rendered": "Robot Factory",
+        "type": "h1",
+      },
+      false,
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": Array [
+            <thead>
+              <tr>
+                <th>
+                  Name
+                </th>
+                <th>
+                  Sentient?
+                </th>
+                <th>
+                  Wheels?
+                </th>
+                <th>
+                  Tracks?
+                </th>
+                <th>
+                  Rotors
+                </th>
+                <th>
+                  Colour
+                </th>
+                <th>
+                  Statuses
+                </th>
+              </tr>
+            </thead>,
+            <tbody>
+              <tr>
+                <td>
+                  robot 1
+                </td>
+                <td>
+                  true
+                </td>
+                <td>
+                  true
+                </td>
+                <td>
+                  true
+                </td>
+                <td>
+                  true
+                </td>
+                <td>
+                  red
+                </td>
+                <td>
+                  on fire, rusty, loose screws, paint scratched
+                </td>
+              </tr>
+            </tbody>,
+          ],
+        },
+        "ref": null,
+        "rendered": Array [
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": <tr>
+                <th>
+                  Name
+                </th>
+                <th>
+                  Sentient?
+                </th>
+                <th>
+                  Wheels?
+                </th>
+                <th>
+                  Tracks?
+                </th>
+                <th>
+                  Rotors
+                </th>
+                <th>
+                  Colour
+                </th>
+                <th>
+                  Statuses
+                </th>
+              </tr>,
+            },
+            "ref": null,
+            "rendered": Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <th>
+                    Name
+                  </th>,
+                  <th>
+                    Sentient?
+                  </th>,
+                  <th>
+                    Wheels?
+                  </th>,
+                  <th>
+                    Tracks?
+                  </th>,
+                  <th>
+                    Rotors
+                  </th>,
+                  <th>
+                    Colour
+                  </th>,
+                  <th>
+                    Statuses
+                  </th>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Name",
+                  },
+                  "ref": null,
+                  "rendered": "Name",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Sentient?",
+                  },
+                  "ref": null,
+                  "rendered": "Sentient?",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Wheels?",
+                  },
+                  "ref": null,
+                  "rendered": "Wheels?",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Tracks?",
+                  },
+                  "ref": null,
+                  "rendered": "Tracks?",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Rotors",
+                  },
+                  "ref": null,
+                  "rendered": "Rotors",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Colour",
+                  },
+                  "ref": null,
+                  "rendered": "Colour",
+                  "type": "th",
+                },
+                Object {
+                  "instance": null,
+                  "key": undefined,
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": "Statuses",
+                  },
+                  "ref": null,
+                  "rendered": "Statuses",
+                  "type": "th",
+                },
+              ],
+              "type": "tr",
+            },
+            "type": "thead",
+          },
+          Object {
+            "instance": null,
+            "key": undefined,
+            "nodeType": "host",
+            "props": Object {
+              "children": Array [
+                <tr>
+                  <td>
+                    robot 1
+                  </td>
+                  <td>
+                    true
+                  </td>
+                  <td>
+                    true
+                  </td>
+                  <td>
+                    true
+                  </td>
+                  <td>
+                    true
+                  </td>
+                  <td>
+                    red
+                  </td>
+                  <td>
+                    on fire, rusty, loose screws, paint scratched
+                  </td>
+                </tr>,
+              ],
+            },
+            "ref": null,
+            "rendered": Array [
+              Object {
+                "instance": null,
+                "key": "1",
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <td>
+                      robot 1
+                    </td>,
+                    <td>
+                      true
+                    </td>,
+                    <td>
+                      true
+                    </td>,
+                    <td>
+                      true
+                    </td>,
+                    <td>
+                      true
+                    </td>,
+                    <td>
+                      red
+                    </td>,
+                    <td>
+                      on fire, rusty, loose screws, paint scratched
+                    </td>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "robot 1",
+                    },
+                    "ref": null,
+                    "rendered": "robot 1",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "true",
+                    },
+                    "ref": null,
+                    "rendered": "true",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "true",
+                    },
+                    "ref": null,
+                    "rendered": "true",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "true",
+                    },
+                    "ref": null,
+                    "rendered": "true",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "true",
+                    },
+                    "ref": null,
+                    "rendered": "true",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "red",
+                    },
+                    "ref": null,
+                    "rendered": "red",
+                    "type": "td",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "on fire, rusty, loose screws, paint scratched",
+                    },
+                    "ref": null,
+                    "rendered": "on fire, rusty, loose screws, paint scratched",
+                    "type": "td",
+                  },
+                ],
+                "type": "tr",
+              },
+            ],
+            "type": "tbody",
+          },
+        ],
+        "type": "table",
+      },
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Robot Factory
+          </h1>,
+          false,
+          <table>
+            <thead>
+              <tr>
+                <th>
+                  Name
+                </th>
+                <th>
+                  Sentient?
+                </th>
+                <th>
+                  Wheels?
+                </th>
+                <th>
+                  Tracks?
+                </th>
+                <th>
+                  Rotors
+                </th>
+                <th>
+                  Colour
+                </th>
+                <th>
+                  Statuses
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>
+                  robot 1
+                </td>
+                <td>
+                  true
+                </td>
+                <td>
+                  true
+                </td>
+                <td>
+                  true
+                </td>
+                <td>
+                  true
+                </td>
+                <td>
+                  red
+                </td>
+                <td>
+                  on fire, rusty, loose screws, paint scratched
+                </td>
+              </tr>
+            </tbody>
+          </table>,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Robot Factory",
+          },
+          "ref": null,
+          "rendered": "Robot Factory",
+          "type": "h1",
+        },
+        false,
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": Array [
+              <thead>
+                <tr>
+                  <th>
+                    Name
+                  </th>
+                  <th>
+                    Sentient?
+                  </th>
+                  <th>
+                    Wheels?
+                  </th>
+                  <th>
+                    Tracks?
+                  </th>
+                  <th>
+                    Rotors
+                  </th>
+                  <th>
+                    Colour
+                  </th>
+                  <th>
+                    Statuses
+                  </th>
+                </tr>
+              </thead>,
+              <tbody>
+                <tr>
+                  <td>
+                    robot 1
+                  </td>
+                  <td>
+                    true
+                  </td>
+                  <td>
+                    true
+                  </td>
+                  <td>
+                    true
+                  </td>
+                  <td>
+                    true
+                  </td>
+                  <td>
+                    red
+                  </td>
+                  <td>
+                    on fire, rusty, loose screws, paint scratched
+                  </td>
+                </tr>
+              </tbody>,
+            ],
+          },
+          "ref": null,
+          "rendered": Array [
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": <tr>
+                  <th>
+                    Name
+                  </th>
+                  <th>
+                    Sentient?
+                  </th>
+                  <th>
+                    Wheels?
+                  </th>
+                  <th>
+                    Tracks?
+                  </th>
+                  <th>
+                    Rotors
+                  </th>
+                  <th>
+                    Colour
+                  </th>
+                  <th>
+                    Statuses
+                  </th>
+                </tr>,
+              },
+              "ref": null,
+              "rendered": Object {
+                "instance": null,
+                "key": undefined,
+                "nodeType": "host",
+                "props": Object {
+                  "children": Array [
+                    <th>
+                      Name
+                    </th>,
+                    <th>
+                      Sentient?
+                    </th>,
+                    <th>
+                      Wheels?
+                    </th>,
+                    <th>
+                      Tracks?
+                    </th>,
+                    <th>
+                      Rotors
+                    </th>,
+                    <th>
+                      Colour
+                    </th>,
+                    <th>
+                      Statuses
+                    </th>,
+                  ],
+                },
+                "ref": null,
+                "rendered": Array [
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Name",
+                    },
+                    "ref": null,
+                    "rendered": "Name",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Sentient?",
+                    },
+                    "ref": null,
+                    "rendered": "Sentient?",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Wheels?",
+                    },
+                    "ref": null,
+                    "rendered": "Wheels?",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Tracks?",
+                    },
+                    "ref": null,
+                    "rendered": "Tracks?",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Rotors",
+                    },
+                    "ref": null,
+                    "rendered": "Rotors",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Colour",
+                    },
+                    "ref": null,
+                    "rendered": "Colour",
+                    "type": "th",
+                  },
+                  Object {
+                    "instance": null,
+                    "key": undefined,
+                    "nodeType": "host",
+                    "props": Object {
+                      "children": "Statuses",
+                    },
+                    "ref": null,
+                    "rendered": "Statuses",
+                    "type": "th",
+                  },
+                ],
+                "type": "tr",
+              },
+              "type": "thead",
+            },
+            Object {
+              "instance": null,
+              "key": undefined,
+              "nodeType": "host",
+              "props": Object {
+                "children": Array [
+                  <tr>
+                    <td>
+                      robot 1
+                    </td>
+                    <td>
+                      true
+                    </td>
+                    <td>
+                      true
+                    </td>
+                    <td>
+                      true
+                    </td>
+                    <td>
+                      true
+                    </td>
+                    <td>
+                      red
+                    </td>
+                    <td>
+                      on fire, rusty, loose screws, paint scratched
+                    </td>
+                  </tr>,
+                ],
+              },
+              "ref": null,
+              "rendered": Array [
+                Object {
+                  "instance": null,
+                  "key": "1",
+                  "nodeType": "host",
+                  "props": Object {
+                    "children": Array [
+                      <td>
+                        robot 1
+                      </td>,
+                      <td>
+                        true
+                      </td>,
+                      <td>
+                        true
+                      </td>,
+                      <td>
+                        true
+                      </td>,
+                      <td>
+                        true
+                      </td>,
+                      <td>
+                        red
+                      </td>,
+                      <td>
+                        on fire, rusty, loose screws, paint scratched
+                      </td>,
+                    ],
+                  },
+                  "ref": null,
+                  "rendered": Array [
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "robot 1",
+                      },
+                      "ref": null,
+                      "rendered": "robot 1",
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "true",
+                      },
+                      "ref": null,
+                      "rendered": "true",
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "true",
+                      },
+                      "ref": null,
+                      "rendered": "true",
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "true",
+                      },
+                      "ref": null,
+                      "rendered": "true",
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "true",
+                      },
+                      "ref": null,
+                      "rendered": "true",
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "red",
+                      },
+                      "ref": null,
+                      "rendered": "red",
+                      "type": "td",
+                    },
+                    Object {
+                      "instance": null,
+                      "key": undefined,
+                      "nodeType": "host",
+                      "props": Object {
+                        "children": "on fire, rusty, loose screws, paint scratched",
+                      },
+                      "ref": null,
+                      "rendered": "on fire, rusty, loose screws, paint scratched",
+                      "type": "td",
+                    },
+                  ],
+                  "type": "tr",
+                },
+              ],
+              "type": "tbody",
+            },
+          ],
+          "type": "table",
+        },
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
+`;
+
+exports[`App render starting state 1`] = `
+ShallowWrapper {
+  "length": 1,
+  Symbol(enzyme.__root__): [Circular],
+  Symbol(enzyme.__unrendered__): <App />,
+  Symbol(enzyme.__renderer__): Object {
+    "batchedUpdates": [Function],
+    "getNode": [Function],
+    "render": [Function],
+    "simulateEvent": [Function],
+    "unmount": [Function],
+  },
+  Symbol(enzyme.__node__): Object {
+    "instance": null,
+    "key": undefined,
+    "nodeType": "host",
+    "props": Object {
+      "children": Array [
+        <h1>
+          Robot Factory
+        </h1>,
+        <em>
+          loading robots...
+        </em>,
+        false,
+      ],
+    },
+    "ref": null,
+    "rendered": Array [
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "Robot Factory",
+        },
+        "ref": null,
+        "rendered": "Robot Factory",
+        "type": "h1",
+      },
+      Object {
+        "instance": null,
+        "key": undefined,
+        "nodeType": "host",
+        "props": Object {
+          "children": "loading robots...",
+        },
+        "ref": null,
+        "rendered": "loading robots...",
+        "type": "em",
+      },
+      false,
+    ],
+    "type": "div",
+  },
+  Symbol(enzyme.__nodes__): Array [
+    Object {
+      "instance": null,
+      "key": undefined,
+      "nodeType": "host",
+      "props": Object {
+        "children": Array [
+          <h1>
+            Robot Factory
+          </h1>,
+          <em>
+            loading robots...
+          </em>,
+          false,
+        ],
+      },
+      "ref": null,
+      "rendered": Array [
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "Robot Factory",
+          },
+          "ref": null,
+          "rendered": "Robot Factory",
+          "type": "h1",
+        },
+        Object {
+          "instance": null,
+          "key": undefined,
+          "nodeType": "host",
+          "props": Object {
+            "children": "loading robots...",
+          },
+          "ref": null,
+          "rendered": "loading robots...",
+          "type": "em",
+        },
+        false,
+      ],
+      "type": "div",
+    },
+  ],
+  Symbol(enzyme.__options__): Object {
+    "adapter": ReactSixteenAdapter {
+      "options": Object {
+        "enableComponentDidUpdateOnSetState": true,
+      },
+    },
+  },
+}
 `;

@@ -11,7 +11,13 @@
     "serve": "live-server ./public --entry-file=index.html"
   },
   "jest": {
-    "moduleFileExtensions": ["js", "jsx", "json", "ts", "tsx"],
+    "moduleFileExtensions": [
+      "js",
+      "jsx",
+      "json",
+      "ts",
+      "tsx"
+    ],
     "transform": {
       "^.+\\.(js|ts)x?$": "<rootDir>/node_modules/babel-jest"
     }
@@ -28,15 +34,17 @@
     "axios": "^0.18.0",
     "babel-core": "^7.0.0-bridge.0",
     "babel-jest": "^22.4.3",
+    "babel-polyfill": "^6.26.0",
     "browserify": "^16.1.1",
-    "http-server": "^0.11.1",
+    "enzyme": "^3.3.0",
+    "enzyme-adapter-react-16": "^1.1.1",
     "jest": "^22.4.3",
     "live-server": "^1.2.0",
     "npx": "^10.0.1",
     "react": "^16.3.1",
     "react-dom": "^16.3.1",
-    "react-test-renderer": "^16.3.1",
     "redux": "^3.7.2",
+    "redux-thunk": "^2.2.0",
     "typescript": "^2.8.1",
     "watchify": "^3.11.0"
   }

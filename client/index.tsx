@@ -11,8 +11,9 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    this.unsubscribeStoreListener = store.subscribe(this.forceUpdate.bind(this))
-
+    this.unsubscribeStoreListener = store.subscribe(() => {
+      this.forceUpdate()
+    })
     store.dispatch(loadRobots())
   }
 

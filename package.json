@@ -4,8 +4,8 @@
   "description": "Robot Factory Code Test",
   "main": "index.js",
   "scripts": {
-    "watch": "watchify build/index.js -o public/index.js --standalone RF",
-    "build": "browserify build/index.js -o public/index.js --standalone RF",
+    "watchify": "watchify build/index.js -o public/index.js --standalone RF",
+    "browserify": "browserify build/index.js -o public/index.js --standalone RF",
     "babel": "babel --watch --extensions '.tsx','.ts' client -d build",
     "test": "jest --no-cache",
     "serve": "live-server ./public --entry-file=index.html"
